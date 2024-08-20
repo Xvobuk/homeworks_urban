@@ -10,5 +10,3 @@ for person in students:
     counter += 1
 counter = 0
 print(dict)
-
-#Я попросил ChatGPT дописать ещё учеников и их оценки и запихнул это всё в отдельный файл, чтобы тут не мусорить.
