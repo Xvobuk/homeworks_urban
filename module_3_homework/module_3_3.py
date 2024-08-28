@@ -9,7 +9,7 @@ data_structure = [
 def calculate_structure_sum(data):
     total_sum = 0
 
-    if isinstance(data, (int)): #Число
+    if isinstance(data, int): #Число
         total_sum += data
     elif isinstance(data, str): #Строка
         total_sum += len(data)
