@@ -9,6 +9,7 @@ def get_multiplied_digits(number):
 
 try:
     result_3 = get_multiplied_digits('Абоба') # В такие программы можно добавлять исключения, но мы ещё их не прошли)))
+    # Хотя, ладно, тут можно сделать обычную валидацию, так даже лучше будет
 except:
     result = get_multiplied_digits(40203)
     result_2 = get_multiplied_digits(88005553535)
